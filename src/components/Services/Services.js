@@ -39,7 +39,7 @@ export default function Services() {
             <h4 className="pb-3 text-center">
               Check some of my services that i did
             </h4>
-            <Row xs={12} md={3} className="g-4 mt-4">
+            <Row xs={1} md={3} className="g-4 mt-4">
               {servicesArray.map((service, index) => (
                 <CardService service={service} key={index}/>
               ))}
